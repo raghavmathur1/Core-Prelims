@@ -503,7 +503,7 @@ p
 .cir3{background-image:linear-gradient(to top, #1876AD , #009DFF)}
 
 .hid{
-	height: 283px;
+	height: 285px;
 	width: 248px;
 	position: absolute;
 	background: #F9F9F9;
@@ -529,6 +529,9 @@ p
 
 .mar{
 	margin: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .left{
@@ -664,4 +667,9 @@ iframe{
 	left: 0;
 	top: 50%;
 
+}
+
+.wattext{
+	text-align: center;
+	margin: 0 20px; 
 }

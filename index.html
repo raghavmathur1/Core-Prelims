@@ -96,15 +96,13 @@
 
 				<div class="transform cflex">
 					<div class="aliens">
-					<div class="slidex">
-						
-						<img src="alien2.png" class="ali">
-						<img src="ali1.png" class="ali">
-						<img src="ali2.png" class="ali">
-						<img src="ali3.png" class="ali">
-						<img src="ali4.png" class="ali">
-					</div>
-					
+						<div class="slidex">
+							<img src="alien2.png" class="ali">
+							<img src="ali1.png" class="ali">
+							<img src="ali2.png" class="ali">
+							<img src="ali3.png" class="ali">
+							<img src="ali4.png" class="ali">
+						</div>
 					</div>
 				</div>
 				<div class="circs cflex">
@@ -118,14 +116,23 @@
 					<img src="arr.png" class="l" style="transform: rotate(180deg);" height="20px" width="20px">
 				</div>
 
-				<div class="map hid">
+				<div class="map hid cflex">
 					<div class="bbut mar bs2"><img src="x.png" height="20px" width="20px"></div>
+					<div class="wattext">
+						Vilgax is 2 miles away in the North direction. 
+					</div>
 				</div>
-				<div class="analysis hid">
+				<div class="analysis hid cflex">
 					<div class="bbut mar bs3"><img src="x.png" height="20px" width="20px"></div>
+					<div class="wattext">
+						After analysing Vilgax's attack pattern I think you should jump and kick!
+					</div>
 				</div>
-				<div class="register hid">
+				<div class="register hid cflex">
 					<div class="bbut mar bs4"><img src="x.png" height="20px" width="20px"></div>
+					<div class="wattext">
+							I spotted a new alien, added it to the index!
+					</div>
 				</div>
 			</div>
 			<img src="watch.png" class="watch">
@@ -312,7 +319,7 @@
 
 		})
 		$(document).ready(function(){
-				var n=0;
+			var n=0;
 			$('.r').click(function(){
 				if (n==0) {
 					$('.slidex').css('transform','translateX(-70px)')
