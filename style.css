@@ -128,6 +128,7 @@ p
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	margin-left: -18px;
 }
 
 .t8
@@ -586,7 +587,7 @@ p
 }
 
 .try1 span{
-	margin-left: -5px;
+	margin-left: 0px;
 }
 
 .sometext{
